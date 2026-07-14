@@ -1,0 +1,17 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "green": "Green Coffee",
+    "cross": "Cross Shipment",
+    "blend": "Blend Your Coffee",
+    "cuppa": "CUPPA JOY",
+    "contact": "Contact"
+  },
+  "cta": {
+    "contact": "Contact",
+    "explore": "Explore Green Coffee",
+    "discover": "Discover CUPPA JOY"
+  },
+  "soon": "Soon"
+}

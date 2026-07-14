@@ -1,0 +1,10 @@
+import { useContext } from 'react';
+import { LanguageContext, type LanguageContextValue } from '@/i18n/LanguageProvider';
+
+export function useLanguage(): LanguageContextValue {
+  const context = useContext(LanguageContext);
+  if (context === undefined) {
+    throw new Error('useLanguage must be used within a LanguageProvider');
+  }
+  return context;
+}
