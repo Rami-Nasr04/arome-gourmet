@@ -12,6 +12,7 @@ interface CanvasWrapperProps {
   className?: string;
   /** LCP scenes (homepage hero) load their poster eagerly. */
   eagerPoster?: boolean;
+  camera?: React.ComponentProps<typeof Canvas>['camera'];
   children: React.ReactNode;
 }
 
@@ -27,6 +28,7 @@ export default function CanvasWrapper({
   aspect = 16 / 9,
   className,
   eagerPoster = false,
+  camera,
   children,
 }: CanvasWrapperProps) {
   const ref = useRef<HTMLDivElement>(null);
@@ -55,6 +57,7 @@ export default function CanvasWrapper({
           <Canvas
             dpr={[1, 2]}
             frameloop="demand"
+            camera={camera}
             gl={{ powerPreference: 'high-performance', antialias: false }}
           >
             <Suspense fallback={null}>{children}</Suspense>

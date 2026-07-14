@@ -24,6 +24,30 @@
     "hotline": "Hotline",
     "rights": "All rights reserved."
   },
+  "origins": {
+    "brazil": "Brazil",
+    "colombia": "Colombia",
+    "ethiopia": "Ethiopia",
+    "vietnam": "Vietnam",
+    "costa-rica": "Costa Rica",
+    "tanzania": "Tanzania",
+    "guatemala": "Guatemala",
+    "kenya": "Kenya",
+    "yemen": "Yemen",
+    "nicaragua": "Nicaragua",
+    "peru": "Peru",
+    "panama": "Panama",
+    "el-salvador": "El Salvador",
+    "mexico": "Mexico",
+    "indonesia": "Indonesia",
+    "honduras": "Honduras"
+  },
+  "originsSection": {
+    "eyebrow": "We Import From",
+    "title": "16 origins, four continents",
+    "subtitle": "Drag the globe, tap a pin, or pick an origin to see its export stamp.",
+    "listLabel": "Coffee origins"
+  },
   "a11y": {
     "mainNav": "Main navigation",
     "footerNav": "Footer navigation",
