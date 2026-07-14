@@ -1,1 +1,55 @@
-{}
+{
+  "hero": {
+    "title": "The Real Coffee Experts",
+    "subtitle": "Premium single-origin green coffee — sourced, roasted, and blended with Lebanese soul.",
+    "skip": "Skip intro",
+    "scrollCue": "Scroll — watch the bean roast"
+  },
+  "intro": {
+    "eyebrow": "Arome Gourmet",
+    "title": "Sourcing the world's finest green coffee",
+    "body": "We specialize in sourcing and supplying premium green coffee to the Middle East and Europe, in collaboration with Maison P. Jobin & Cie SAS (France) and Aziende Riunite Caffè S.R.L (Italy). Thanks to our extensive roasting and blending expertise, we produce the finest Italian espresso, American, Turkish and mocha coffee — and we bundle small orders from multiple origins into one container, shipped from multiple sources.",
+    "cuppa": "We also craft our own brand, CUPPA JOY — from the natural world and the high mountains of Ethiopia and Brazil, blended for the authentic Lebanese taste."
+  },
+  "pillars": {
+    "title": "What we do",
+    "green": {
+      "title": "Green Coffee Trade",
+      "body": "Premium single-origin raw beans for roasteries across the Middle East and Europe."
+    },
+    "roast": {
+      "title": "Roasting & Blending",
+      "body": "Small-batch roasting at our own plant — Italian espresso, Turkish, American and mocha."
+    },
+    "cross": {
+      "title": "Cross-Shipment Consolidation",
+      "body": "Small multi-origin orders bundled into one container, shipped from Europe."
+    }
+  },
+  "values": {
+    "natural": "100% Natural Coffee",
+    "delivery": "Delivery to all regions",
+    "quality": "The highest quality of products"
+  },
+  "partners": {
+    "eyebrow": "Trusted partners",
+    "jobin": "Maison P. Jobin & Cie SAS",
+    "jobinCountry": "France",
+    "aziende": "Aziende Riunite Caffè S.R.L",
+    "aziendeCountry": "Italy"
+  },
+  "cuppaTeaser": {
+    "eyebrow": "Our retail brand",
+    "title": "CUPPA JOY",
+    "body": "Premium roasted coffee from the highlands of Ethiopia and Brazil — prepared from the finest beans with a touch of the Magic of Lebanon."
+  },
+  "stats": {
+    "coffee": "Types of Coffee",
+    "back": "Clients Come Back",
+    "countries": "Countries of Origin"
+  },
+  "closing": {
+    "title": "Enjoy the taste of CUPPA JOY!",
+    "body": "Talk to us about green coffee, custom blends, or your next consolidated shipment."
+  }
+}

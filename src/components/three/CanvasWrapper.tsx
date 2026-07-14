@@ -9,6 +9,8 @@ interface CanvasWrapperProps {
   posterAlt?: string;
   /** width / height — reserves layout space so the canvas causes no CLS. */
   aspect?: number;
+  /** Fill the parent (parent must be positioned) instead of reserving an aspect box. */
+  fill?: boolean;
   className?: string;
   /** LCP scenes (homepage hero) load their poster eagerly. */
   eagerPoster?: boolean;
@@ -26,6 +28,7 @@ export default function CanvasWrapper({
   poster,
   posterAlt = '',
   aspect = 16 / 9,
+  fill = false,
   className,
   eagerPoster = false,
   camera,
@@ -48,8 +51,8 @@ export default function CanvasWrapper({
   return (
     <div
       ref={ref}
-      style={{ aspectRatio: aspect }}
-      className={cn('relative w-full overflow-hidden', className)}
+      style={fill ? undefined : { aspectRatio: aspect }}
+      className={cn('relative w-full overflow-hidden', fill && 'h-full', className)}
     >
       <Poster src={poster} alt={posterAlt} eager={eagerPoster} />
       {webgl && inView && (

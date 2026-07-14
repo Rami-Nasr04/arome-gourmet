@@ -1,4 +1,5 @@
 import { Outlet } from 'react-router-dom';
+import { MotionConfig } from 'framer-motion';
 import { Toaster } from 'sonner';
 import { useTranslation } from 'react-i18next';
 import { ThemeProvider } from '@/contexts/ThemeContext';
@@ -33,7 +34,9 @@ export default function App() {
   return (
     <ThemeProvider>
       <LanguageProvider>
-        <Shell />
+        <MotionConfig reducedMotion="user">
+          <Shell />
+        </MotionConfig>
       </LanguageProvider>
     </ThemeProvider>
   );
