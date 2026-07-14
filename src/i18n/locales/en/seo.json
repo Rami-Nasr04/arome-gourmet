@@ -1,1 +1,34 @@
-{}
+{
+  "home": {
+    "title": "Best Coffee & Green Coffee Beans in Lebanon | Arome Gourmet",
+    "description": "Lebanon's real coffee experts. Arome Gourmet imports premium single-origin green coffee beans, small-batch roasts & the CUPPA JOY brand — sourced worldwide."
+  },
+  "green": {
+    "title": "Green Coffee Beans in Lebanon — Single Origin Importer | Arome Gourmet",
+    "description": "Buy premium single-origin green coffee beans in Lebanon. Arabica & Robusta from 16 origins — Ethiopia Sidamo, Colombia Supremo, Brazil Santos & more, for roasteries."
+  },
+  "cuppa": {
+    "title": "CUPPA JOY — Best Roasted Coffee in Lebanon | Arome Gourmet",
+    "description": "CUPPA JOY: premium roasted coffee from the highlands of Ethiopia & Brazil, blended for the authentic Lebanese taste. Turkish, espresso, American & filter."
+  },
+  "about": {
+    "title": "About Arome Gourmet — Family Coffee Roasters in Lebanon",
+    "description": "A family-owned Lebanese coffee company sourcing the world's finest green coffee and small-batch roasting it for connoisseurs across the Middle East & Europe."
+  },
+  "cross": {
+    "title": "Coffee Cross-Shipment & Container Consolidation | Arome Gourmet",
+    "description": "Consolidate small multi-origin green coffee orders into one container, shipped from Europe. Request a mixed-origin shipment from Arome Gourmet, Lebanon."
+  },
+  "contact": {
+    "title": "Contact Arome Gourmet — Coffee Experts in Mkalles, Lebanon",
+    "description": "Get in touch with Arome Gourmet in Mkalles–Mansourieh, Lebanon. Call +961 1 687 493 or email info@aromegourmet.com for green coffee & CUPPA JOY inquiries."
+  },
+  "blend": {
+    "title": "Blend Your Coffee Online — Coming Soon | Arome Gourmet",
+    "description": "Craft your own signature blend online — a new Arome Gourmet experience is on its way. Meanwhile, talk to our roasters about custom blends."
+  },
+  "notFound": {
+    "title": "Page Not Found | Arome Gourmet",
+    "description": "The page you are looking for does not exist. Explore Arome Gourmet's green coffee, cross-shipment services and the CUPPA JOY brand instead."
+  }
+}
