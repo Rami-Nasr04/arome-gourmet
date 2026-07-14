@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useSyncExternalStore } from 'react';
 
 let cached: boolean | null = null;
 
@@ -13,16 +13,17 @@ export function detectWebGL(): boolean {
   }
 }
 
+const subscribeNever = () => () => {};
+
 /**
- * SSR/hydration-safe: returns false on the server and for the first client
- * render (so prerendered HTML matches), then upgrades after mount. Detection
- * runs once per session.
+ * SSR/hydration-safe: the server snapshot is false (so prerendered HTML and
+ * the hydration render match), then React re-reads the client snapshot after
+ * hydration. Detection runs once per session.
  */
 export function useWebGLSupported(): boolean {
-  const [supported, setSupported] = useState(false);
-  useEffect(() => {
-    cached ??= detectWebGL();
-    setSupported(cached);
-  }, []);
-  return supported;
+  return useSyncExternalStore(
+    subscribeNever,
+    () => (cached ??= detectWebGL()),
+    () => false,
+  );
 }

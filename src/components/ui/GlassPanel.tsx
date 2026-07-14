@@ -1,6 +1,6 @@
 import { cn } from '@/lib/utils';
 
-interface GlassPanelProps extends React.HTMLAttributes<HTMLDivElement> {}
+type GlassPanelProps = React.HTMLAttributes<HTMLDivElement>;
 
 /** Warm translucent panel for floating over 3D scenes. Use sparingly (perf). */
 export default function GlassPanel({ className, ...props }: GlassPanelProps) {
