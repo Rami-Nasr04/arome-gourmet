@@ -1,1 +1,62 @@
 @import 'tailwindcss';
+@import '@fontsource-variable/fraunces';
+@import '@fontsource/plus-jakarta-sans/400.css';
+@import '@fontsource/plus-jakarta-sans/500.css';
+@import '@fontsource/plus-jakarta-sans/700.css';
+@import '@fontsource/spline-sans-mono/400.css';
+@import '@fontsource/spline-sans-mono/500.css';
+@import '@fontsource/tajawal/400.css';
+@import '@fontsource/tajawal/500.css';
+@import '@fontsource/tajawal/700.css';
+
+@theme inline {
+  --color-background: #EFE7D6;
+  --color-card: #F7F1E4;
+  --color-foreground: #1A1613;
+  --color-primary: #241C18;
+  --color-primary-foreground: #F0E7D6;
+  --color-bean: #5E6B47;
+  --color-bean-deep: #3C4A33;
+  --color-accent: #A16207;
+  --color-accent-foreground: #FFFFFF;
+  --color-gold: #C9A227;
+  --color-gold-soft: #E7CE8A;
+  --color-jute: #C9B48E;
+  --color-muted-foreground: #6B6156;
+  --color-border: #D8CBB2;
+  --color-destructive: #B4402A;
+  --color-ring: #A16207;
+  --font-display: 'Fraunces Variable', serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-mono: 'Spline Sans Mono', monospace;
+  --font-arabic: 'Tajawal', system-ui, sans-serif;
+  --radius: 0.75rem;
+}
+
+[data-theme='dark'] {
+  --color-background: #161210;
+  --color-card: #211A16;
+  --color-foreground: #F0E7D6;
+  --color-primary: #F0E7D6;
+  --color-primary-foreground: #161210;
+  --color-bean: #8A996E;
+  --color-accent: #D99A2B;
+  --color-border: #3A2F27;
+  --color-muted-foreground: #B8AC9A;
+}
+
+:root { color-scheme: light; }
+[data-theme='dark'] { color-scheme: dark; }
+
+html { scroll-behavior: smooth; }
+body { background: var(--color-background); color: var(--color-foreground);
+       font-family: var(--font-sans); line-height: 1.6; }
+html[dir='rtl'] body { font-family: var(--font-arabic); }
+h1,h2,h3 { font-family: var(--font-display); line-height: 1.1; }
+html[dir='rtl'] h1, html[dir='rtl'] h2, html[dir='rtl'] h3 { font-family: var(--font-arabic); font-weight: 700; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; scroll-behavior: auto !important; }
+}
+:focus-visible { outline: 2px solid var(--color-ring); outline-offset: 2px; }
