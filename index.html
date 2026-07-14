@@ -5,6 +5,19 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Arome Gourmet</title>
+    <script>
+      // Pre-paint theme + language/dir to avoid a flash of wrong theme/direction.
+      try {
+        if (localStorage.getItem('theme') === 'dark') {
+          document.documentElement.dataset.theme = 'dark';
+        }
+        var lng = localStorage.getItem('i18nextLng') || 'en';
+        document.documentElement.lang = lng;
+        document.documentElement.dir = lng.indexOf('ar') === 0 ? 'rtl' : 'ltr';
+      } catch (e) {
+        /* storage unavailable — defaults stand */
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>

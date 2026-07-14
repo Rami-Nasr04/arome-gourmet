@@ -13,5 +13,26 @@
     "explore": "Explore Green Coffee",
     "discover": "Discover CUPPA JOY"
   },
-  "soon": "Soon"
+  "soon": "Soon",
+  "tagline": "The Real Coffee Experts",
+  "footer": {
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "address": "Mkalles – Mansourieh Industrial Zone, Lebanon",
+    "management": "Management",
+    "landline": "Landline",
+    "hotline": "Hotline",
+    "rights": "All rights reserved."
+  },
+  "a11y": {
+    "mainNav": "Main navigation",
+    "footerNav": "Footer navigation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "menuTitle": "Menu",
+    "toggleTheme": "Toggle color theme",
+    "switchLang": "التبديل إلى العربية",
+    "skip": "Skip to content",
+    "logoAlt": "Arome Gourmet — green-to-espresso coffee cup logo"
+  }
 }
