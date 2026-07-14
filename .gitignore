@@ -4,6 +4,7 @@ node_modules/
 # Build output
 dist/
 dist-ssr/
+.vite-react-ssg-temp/
 *.local
 
 # Logs
@@ -36,3 +37,6 @@ local/
 
 # Claude Code local config
 .claude/
+
+# SDD task ledger (implementation-run scaffolding, not project source)
+.superpowers/
