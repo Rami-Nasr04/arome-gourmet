@@ -9,40 +9,62 @@
 @import '@fontsource/tajawal/500.css';
 @import '@fontsource/tajawal/700.css';
 
+/* Two-layer token pattern: raw values live on :root / [data-theme='dark'];
+   @theme inline references them so compiled utilities stay theme-reactive
+   (literal values in @theme inline get baked into utilities at build time). */
+:root {
+  --background: #EFE7D6;
+  --card: #F7F1E4;
+  --foreground: #1A1613;
+  --primary: #241C18;
+  --primary-foreground: #F0E7D6;
+  --bean: #5E6B47;
+  --bean-deep: #3C4A33;
+  --accent: #A16207;
+  --accent-foreground: #FFFFFF;
+  --gold: #C9A227;
+  --gold-soft: #E7CE8A;
+  --jute: #C9B48E;
+  --muted-foreground: #6B6156;
+  --border: #D8CBB2;
+  --destructive: #B4402A;
+  --ring: #A16207;
+}
+
+[data-theme='dark'] {
+  --background: #161210;
+  --card: #211A16;
+  --foreground: #F0E7D6;
+  --primary: #F0E7D6;
+  --primary-foreground: #161210;
+  --bean: #8A996E;
+  --accent: #D99A2B;
+  --border: #3A2F27;
+  --muted-foreground: #B8AC9A;
+}
+
 @theme inline {
-  --color-background: #EFE7D6;
-  --color-card: #F7F1E4;
-  --color-foreground: #1A1613;
-  --color-primary: #241C18;
-  --color-primary-foreground: #F0E7D6;
-  --color-bean: #5E6B47;
-  --color-bean-deep: #3C4A33;
-  --color-accent: #A16207;
-  --color-accent-foreground: #FFFFFF;
-  --color-gold: #C9A227;
-  --color-gold-soft: #E7CE8A;
-  --color-jute: #C9B48E;
-  --color-muted-foreground: #6B6156;
-  --color-border: #D8CBB2;
-  --color-destructive: #B4402A;
-  --color-ring: #A16207;
+  --color-background: var(--background);
+  --color-card: var(--card);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-bean: var(--bean);
+  --color-bean-deep: var(--bean-deep);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-gold: var(--gold);
+  --color-gold-soft: var(--gold-soft);
+  --color-jute: var(--jute);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-ring: var(--ring);
   --font-display: 'Fraunces Variable', serif;
   --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
   --font-mono: 'Spline Sans Mono', monospace;
   --font-arabic: 'Tajawal', system-ui, sans-serif;
   --radius: 0.75rem;
-}
-
-[data-theme='dark'] {
-  --color-background: #161210;
-  --color-card: #211A16;
-  --color-foreground: #F0E7D6;
-  --color-primary: #F0E7D6;
-  --color-primary-foreground: #161210;
-  --color-bean: #8A996E;
-  --color-accent: #D99A2B;
-  --color-border: #3A2F27;
-  --color-muted-foreground: #B8AC9A;
 }
 
 :root { color-scheme: light; }
