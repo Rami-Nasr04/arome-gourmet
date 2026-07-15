@@ -1,1 +1,37 @@
-{}
+{
+  "title": "Green Coffee",
+  "subtitle": "Premium single-origin raw beans, imported and delivered to roasteries across the Middle East and Europe",
+  "intro": {
+    "p1": "We import and deliver selected origins from Brazil — Rio Minas, ideal for Turkish coffee, and the fancy Santos Sul de Minas and Delizia lots, made to blend with Ethiopian Sidamo, Colombian Supremo, or Central American gourmets such as Antigua and Huehuetenango.",
+    "p2": "Indonesian coffees such as Sumatran and Java bring heavy body and low acidity — ideal partners for brighter, higher-acidity cups from Guatemala and Costa Rica. Blending single origins is how a roastery builds its own signature and particular image."
+  },
+  "species": {
+    "title": "Arabica vs Robusta",
+    "intro": "Two species carry the world's coffee. What each brings to the roaster is the first decision in any blend.",
+    "arabica": {
+      "name": "Arabica",
+      "facts": ["~75% of world production", "Sea level – 2800m", "Caffeine ~1.5%"],
+      "body": "Arabica accounts for about 75% of the world's coffee production, cultivated from sea level up to 2800 m — each tree yielding 0.5 to 5 kg of dried beans. The best growing areas are Brazil, Central America and East Africa."
+    },
+    "robusta": {
+      "name": "Robusta",
+      "facts": ["India · Vietnam", "Caffeine ~2.7%", "Crema & body"],
+      "body": "We import and sell Robusta mainly from India and Vietnam. Higher in caffeine (~2.7%) than Arabica (~1.5%), good-quality Robusta beans anchor traditional Italian espresso blends — a full-bodied taste and a better foam head, or crema."
+    }
+  },
+  "lots": {
+    "eyebrow": "Export Stamps",
+    "title": "Specialty lots",
+    "subtitle": "Named lots we import and deliver — the building blocks of a signature blend."
+  },
+  "consolidation": {
+    "title": "Small orders, one container",
+    "body": "At special request, selected green coffees can be ordered in small quantities inside a combined, mixed-origin container — usually shipped from Europe — so you reduce the stock you hold of each single origin.",
+    "cta": "Explore Cross Shipment"
+  },
+  "quote": {
+    "title": "Request a quote",
+    "body": "Tell us which origins and volumes your roastery needs — we'll come back with availability and pricing.",
+    "cta": "Request a Quote"
+  }
+}
