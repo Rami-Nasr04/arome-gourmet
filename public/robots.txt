@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aromegourmet.com/sitemap.xml
