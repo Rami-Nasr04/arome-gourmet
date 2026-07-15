@@ -10,4 +10,5 @@ export const CONTACT = {
   dhlAccount: '963770567',
 } as const;
 
-export const SITE_URL = 'https://aromegourmet.com';
+/** Canonical origin for SEO URLs. Set VITE_SITE_URL per deployment (e.g. preview hosts); production default. */
+export const SITE_URL = import.meta.env.VITE_SITE_URL ?? 'https://aromegourmet.com';
