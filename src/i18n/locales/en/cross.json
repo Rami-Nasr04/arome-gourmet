@@ -1,1 +1,16 @@
-{}
+{
+  "title": "Cross Shipment",
+  "subtitle": "Small orders from many origins, consolidated into one container",
+  "explainer": {
+    "p1": "At special request, selected green coffees can be ordered in small quantities inside one combined, mixed container of different single origins — to be used as a blend. Each roasting company can create its own signature blend and particular image.",
+    "p2": "We usually ship such a mixed container from Europe, allowing you to reduce the stock you hold of each single origin — less capital tied up, one consolidated delivery."
+  },
+  "dhl": {
+    "label": "DHL Account",
+    "number": "963770567"
+  },
+  "request": {
+    "title": "Request a mixed container",
+    "subtitle": "Tell us your route, your contact details, and up to five origin line items — we'll come back with a consolidation plan."
+  }
+}
