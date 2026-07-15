@@ -12,5 +12,38 @@
   "request": {
     "title": "Request a mixed container",
     "subtitle": "Tell us your route, your contact details, and up to five origin line items — we'll come back with a consolidation plan."
+  },
+  "form": {
+    "route": "Shipment route",
+    "origin": "Origin",
+    "destination": "Destination",
+    "contact": "Your details",
+    "fullName": "Full Name",
+    "email": "Email",
+    "phone": "Phone",
+    "phoneHelp": "Numbers only, at least 7 digits",
+    "fax": "Fax",
+    "address": "Full Address",
+    "items": "Order items",
+    "item": "Item",
+    "itemOrigin": "Origin",
+    "itemType": "Type",
+    "itemBags": "Quantity (bags)",
+    "orderMore": "Order More",
+    "removeItem": "Remove item {{n}}",
+    "maxItems": "Up to 5 items per request.",
+    "submit": "Send Request",
+    "sending": "Sending…",
+    "success": "Request received — we'll come back with a consolidation plan and quote.",
+    "error": "Something went wrong. Please try again.",
+    "errors": {
+      "origin": "Enter the shipment origin.",
+      "destination": "Enter the destination.",
+      "fullName": "Please enter your full name.",
+      "email": "Please enter a valid email address.",
+      "phone": "Enter a valid phone (numbers only, 7+ digits).",
+      "address": "Please enter your full address.",
+      "item": "Required"
+    }
   }
 }

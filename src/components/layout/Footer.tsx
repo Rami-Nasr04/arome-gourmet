@@ -3,30 +3,8 @@ import { Mail, MapPin, Phone } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { CONTACT } from '@/lib/constants';
 import { normalizePhone } from '@/lib/format';
+import { FacebookIcon, InstagramIcon } from '@/components/ui/BrandIcons';
 import { NAV_ITEMS } from './navItems';
-
-interface BrandIconProps {
-  className?: string;
-}
-
-// lucide-react removed brand icons; these mirror its former stroke style.
-function FacebookIcon({ className }: BrandIconProps) {
-  return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden="true">
-      <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
-    </svg>
-  );
-}
-
-function InstagramIcon({ className }: BrandIconProps) {
-  return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden="true">
-      <rect x="2" y="2" width="20" height="20" rx="5" />
-      <path d="M16 11.37a4 4 0 1 1-7.75 1.26 4 4 0 0 1 7.75-1.26z" />
-      <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
-    </svg>
-  );
-}
 
 export default function Footer() {
   const { t } = useTranslation('common');

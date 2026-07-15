@@ -1,1 +1,35 @@
-{}
+{
+  "title": "Contact",
+  "subtitle": "Tell us what your roastery — or your cup — needs",
+  "details": {
+    "title": "Reach us",
+    "address": "Address",
+    "landline": "Landline",
+    "hotline": "Hotline",
+    "management": "Management",
+    "email": "Email"
+  },
+  "map": {
+    "title": "Arome Gourmet location on Google Maps"
+  },
+  "socials": "Follow us",
+  "form": {
+    "title": "Send your message",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "you@company.com",
+    "messagePlaceholder": "How can we help?",
+    "submit": "Send Your Message",
+    "sending": "Sending…",
+    "success": "Thank you — your message is on its way. We'll get back to you shortly.",
+    "error": "Something went wrong. Please try again.",
+    "errors": {
+      "name": "Please enter your name (at least 2 characters).",
+      "email": "Please enter a valid email address.",
+      "message": "Please write a short message (at least 5 characters)."
+    },
+    "interestPrefill": "Hello — I'd like a quote for green coffee.\n\n"
+  }
+}

@@ -4,6 +4,7 @@ import PageHero from '@/components/ui/PageHero';
 import Container from '@/components/ui/Container';
 import Section from '@/components/ui/Section';
 import Reveal from '@/components/ui/Reveal';
+import CrossShipmentForm from '@/components/forms/CrossShipmentForm';
 
 export function Component() {
   const { t } = useTranslation('cross');
@@ -35,7 +36,9 @@ export function Component() {
             </h2>
             <p className="mt-3 text-muted-foreground">{t('request.subtitle')}</p>
           </Reveal>
-          {/* CrossShipmentForm mounts here (Task 22). */}
+          <div className="mt-10 max-w-3xl">
+            <CrossShipmentForm />
+          </div>
         </Container>
       </Section>
     </>
