@@ -40,3 +40,6 @@ local/
 
 # SDD task ledger (implementation-run scaffolding, not project source)
 .superpowers/
+
+# Playwright MCP session artifacts (screenshots, console logs)
+.playwright-mcp/
