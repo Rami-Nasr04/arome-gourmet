@@ -1,1 +1,41 @@
-{}
+{
+  "title": "CUPPA JOY",
+  "subtitle": "From the high mountains of Ethiopia and Brazil — the authentic Lebanese taste",
+  "story": {
+    "p1": "CUPPA JOY is our own roasted and ground coffee brand: premium beans from the highlands of Ethiopia and Brazil, blended with a touch of the magic of Lebanon.",
+    "p2": "Every batch is roasted small at our own plant in Mkalles and packed fresh — the cup that carries our family name."
+  },
+  "products": {
+    "eyebrow": "Product Formats",
+    "title": "Every brew, every size",
+    "subtitle": "Roasted and packed by the Arome Gourmet roasting plant — the finest coffees from the premier growing regions around the world.",
+    "items": [
+      {
+        "name": "Turkish",
+        "formats": ["Soft / vacuum 180g · 200g · 250g · 450g", "450g jar"],
+        "body": "Finely ground for the pot — soft or vacuum bags, plus a plastic jar."
+      },
+      {
+        "name": "Espresso",
+        "formats": ["Ground / whole bean", "1kg pack · 450g jar · 750g jar"],
+        "body": "Ground or whole bean, for the bar and the home machine alike."
+      },
+      {
+        "name": "American & Filter",
+        "formats": ["Ground"],
+        "body": "American and filter coffee, roasted and packed to order."
+      },
+      {
+        "name": "Half-Ground Bulk",
+        "formats": ["5kg · 10kg · 18kg aluminium"],
+        "body": "Special half-ground, multi-use coffee for high-volume service."
+      }
+    ],
+    "valve": "All soft packaging includes a degassing valve to keep freshness and avoid oxidation."
+  },
+  "cta": {
+    "title": "Enjoy the taste of CUPPA JOY",
+    "body": "Ask where to find CUPPA JOY near you, or talk to us about stocking it.",
+    "button": "Get in touch"
+  }
+}

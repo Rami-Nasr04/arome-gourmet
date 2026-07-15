@@ -48,6 +48,11 @@
     "subtitle": "Drag the globe, tap a pin, or pick an origin to see its export stamp.",
     "listLabel": "Coffee origins"
   },
+  "notFound": {
+    "title": "This page went off the map",
+    "body": "The page you're looking for doesn't exist — but the coffee does.",
+    "cta": "Back to home"
+  },
   "a11y": {
     "mainNav": "Main navigation",
     "footerNav": "Footer navigation",
