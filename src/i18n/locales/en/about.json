@@ -1,1 +1,34 @@
-{}
+{
+  "title": "About Us",
+  "subtitle": "Catering to your requirements, handling your needs with care",
+  "story": {
+    "p1": "Arome et Delices and Arome Gourmet is a family-owned company with an operated coffee business — marketing and selling premium single-origin green coffee, and recently offering roasted and ground coffee, exclusively to its coffee customers and connoisseurs throughout the Middle East and some European countries.",
+    "p2": "Our primary goal is to bring our coffee lovers the world's finest green coffee, grown in the Asian and African mountains as well as in Central and South America — sold raw to the most famous coffee roasteries, or blended and roasted at our own roasting plant."
+  },
+  "process": {
+    "title": "How we roast",
+    "intro": "Being a family roaster allows us the luxury of focusing on quality control at every step of the roasting process.",
+    "steps": [
+      {
+        "title": "Only the highest-quality beans",
+        "body": "Only the highest quality beans are considered — and only the best of these will ever make it to the consumer."
+      },
+      {
+        "title": "Roasted in small batches",
+        "body": "All our coffee is roasted in small batches, giving us full control over body, aroma and flavor."
+      },
+      {
+        "title": "Blended with intent",
+        "body": "Single origins are blended in a technique that optimizes body, aroma and flavors — creating a new taste and a cup superior to each single origin used alone."
+      },
+      {
+        "title": "A memorable cup",
+        "body": "The aroma of a freshly roasted blend, with hints of earthiness and sweet undertones — Ethiopian, Asian, Central and Latin American — is sure to make you unwind and enjoy."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Let's talk coffee",
+    "body": "From raw green beans to signature blends — tell us what your roastery or your cup needs."
+  }
+}
